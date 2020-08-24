@@ -1,0 +1,28 @@
+.header{
+    background: rgb(124, 137, 211);
+    display: flex;
+    justify-content: space-between;
+  
+    &__logo{
+        padding-left: 3rem;
+      img{
+          width: 57px;
+          height: 69px;
+      }
+    }
+  
+    &__menu{
+      display: flex;
+      
+      li{
+        padding: 1.5rem;
+        &:hover{
+          color: #fff !important;
+          background:#03c3fc;
+        }
+        a{
+          color: #fff !important;
+        }
+      }
+    }
+  }

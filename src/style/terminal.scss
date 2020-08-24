@@ -1,0 +1,52 @@
+.terminal{
+    margin: 0 auto;
+    width: 600px;
+    &__title{
+        h1{
+            text-align: center;
+        }
+    }
+
+    .btn{
+        width: 100%;
+        padding: .8rem 0 ;
+        margin: 1rem 0;
+        background: #275efec9;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        border-radius: 9px;
+    }
+
+    &__add-item{
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 4px double black;
+        padding: .5rem 2rem;
+        margin: 2rem 0;
+        h3{
+            padding: .3rem 0;
+            margin: 0;
+            font-size: 20px;
+        }
+        span{
+            font-weight: 400;
+            font-size: 13px;
+        }
+
+        button{
+            border: 1px solid red;
+            padding: .3rem 1.5rem;
+            outline: none;
+            background: lightcoral;
+            border-radius: 5px;
+        }
+    }
+}
